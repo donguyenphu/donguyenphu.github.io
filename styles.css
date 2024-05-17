@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', 'sans-serif';
+    color: #1D1D24;
+}
+
+h1,
+h2 {
+    font-family: 'Montserrat', 'sans-serif';
+}
+
+.menu {
+    padding: 18px;
+    text-align: center;
+}
+
+.menu-item {
+    /* inline & block */
+    /* những phần tử inline mà muốn sử dụng thêm các tính width, height, pađing, margin thì nên chuyển display về inline-block */
+    font-size: 20px;
+    color: #1D1D24;
+    text-decoration: none;
+    font-weight: 500;
+    margin: 0 17px;
+}
+
+
+.btn-contact-me {
+    font-family: 'Poppins', 'sans-serif';
+    border-radius: 6px;
+    /* 
+    red green blue
+    #000000
+    rgb(0, 0, 0)
+    #ffffff
+    rgb(255, 255, 255)
+    */
+    border: 2px solid rgba(29, 29, 36, 0.5);
+    background-color: white;
+    font-size: 20px;
+    padding: 12px 27px;
+    margin-left: 17px;
+}
+
+.info {
+    background-color: #F8F9FC;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    text-align: center;
+}
+
+.avatar {
+    border: 14px solid white;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    /* box-shadow: #0000001A; */
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.content {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 35px;
+    text-align: left;
+}
+
+.welcome,
+.name,
+.company {
+    color: #1F1F25;
+}
+
+.welcome {
+    text-transform: uppercase;
+}
+
+.name,
+.job,
+.company {
+    font-size: 58px;
+}
+
+.job {
+    color: #F9004D;
+}
+
+.title {
+    font-size: 50px;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 30px;
+}
+
+.project-list {
+    text-align: center;
+}
+
+.project-item {
+    width: 30%;
+    display: inline-block;
+    /* padding: 35px; */
+    padding: 30px 17px;
+    text-align: center;
+
+}
+
+.img1 {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.project-name {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.footer {
+    text-align: center;
+    padding-top: 31px;
+    padding-bottom: 31px;
+    background-color: #00010c;
+    color: #C6C9D8;
+    margin-top: 120px;
+}
