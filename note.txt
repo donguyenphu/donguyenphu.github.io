@@ -1,0 +1,11 @@
+<div class="HPOvideoWrapper">
+    <p class="HPOvideoIntroduce activities">
+        During the time, I also joined a drawing tour opposite the Opera House.
+    </p>
+    <div class="arrowAndVideoWrapper">
+        <div class="HPOarrowDown">
+            <i class="fa-solid fa-angles-down" id="HPOarrowDownMain"></i>
+        </div>
+        <a href="https://www.facebook.com/100006030005990/videos/pcb.2483873688490274/1402169030457781" class="HPOvideoMain">See more about my journey here</a>
+    </div>
+</div>

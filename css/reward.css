@@ -1,0 +1,187 @@
+/* CERTIFICATE START */
+.CertificateNumberWrapper {
+    /* background-color: #7b7878; */
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    border-radius: 30px;
+    /* width: fit-content; */
+}
+.CertificateNumberMain {
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    background-image: var(--about-me-title-and-line);
+    -webkit-background-clip: text;
+    color: transparent; 
+}
+.allIELTSwrapper {
+    display: flex;
+    gap: 20px;
+    padding: 15px;
+    background-color: #44566C;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.allAMEBwrapper, .allIELTSwrapper, .allCourseraWrapper, .allZENDVNwrapper, .allGPAwrapper,  .allINTROARTwrapper {
+    padding: 40px;
+    background-color: #c2c0c0;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+.AMEBleftMain, .AMEBmidMain, .AMEBrightMain {
+    flex: 1;
+}
+.IELTSintroductionWrapper {
+    width: 50%;
+    padding: 10px;
+}
+.descriptionActivities {
+    font-size: 25px;
+    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    text-indent: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.AMEBintroductionMain, .CourseraIntroductionMain, .IELTSintroductionMain, .ZENDVNintroductionMain {
+    color: #1b232b;
+}
+.AMEBintroductionWrapper {
+    padding: 15px;
+}
+.allAMEBimageWrapper {
+    display: flex;
+    gap: 15px;
+}
+.AMEBleftMain ,.AMEBmidMain ,.AMEBrightMain {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+.AMEBleftWrapper, .AMEBmidWrapper, .AMEBrightWrapper {
+    width: 33.33%;
+    object-fit: cover;
+    transform: rotate(180deg);
+}
+.firstCourseraWrapper {
+    display: flex;
+    gap: 20px;
+}
+.secondCourseraWrapper {
+    gap: 20px;
+    display: flex;
+}
+.allZENDVNimageWrapper {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 20px;
+}
+.allGPAwrapper {
+    display: flex;
+    gap: 15px;
+}
+/* CERTIFICATE END */
+/* PRIZE START */
+.IA2022allImageWrapper  {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 30px;
+}
+.INTROARTintroductionWrapper {
+    padding: 25px;
+    background-color: #c2c0c0;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+.INTROART2022Wrapper {
+    padding: 15px;
+    background-color: #7b7878;
+    border-radius: 15px;
+}
+.IA2023allWrapper {
+    margin-top: 30px;
+    padding: 20px;
+    background-color:#7b7878;
+    border-radius: 15px;
+}
+.IA2023allImageWrapper {
+    margin-top: 30px;
+    display: flex;
+    gap:  20px;
+    align-items: center;
+}
+.IA2022imageMain, .IA2022rightLeftMain, .IA2022rightRightMain, .CHEMISTRYleftMain, .CHEMISTRYrightMain {
+    width: 100%;
+    border-radius: 15px;
+}
+.IA2022rightWrapper, .IA2022leftWrapper {
+    flex: 1 ;
+}
+.AMEB {
+    width: 100%;
+}
+.CHEMISTRYallWrapper, .ITallWrapper {
+    gap: 30px;
+    margin-top: 30px;
+    padding: 30px;
+    background-color: #fff;
+    background-color:#7b7878;
+    border-radius: 15px;
+}
+#codingPlatform {
+    text-decoration: none;
+    font-size: 30px;
+    line-height: 1.5;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 600;
+    color: black;
+}
+.codingPlatformWrapper:hover {
+    transform: translateY(-10px);
+}
+.imageAndListWrapper {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 30px;
+    justify-content: center;
+}
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    justify-content: center;
+    align-items: center;
+}
+.popUpImage {
+    position: fixed;
+    height: 90vh;
+    width: auto;
+    border-radius: 10px;
+    cursor: pointer;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    transition: 31556952000s all ease-in-out;
+}
+.close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    z-index: 999;
+}
+/* PRIZE END */

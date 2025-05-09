@@ -1,0 +1,209 @@
+
+/* WRAPPER START */
+.allWrapperDetails {
+    background-color: black;
+    border-radius: 20px;
+    padding: 35px;
+}
+.aboutMeTitleWrapper {
+    text-align: center;
+    flex: 1;
+}
+.aboutMeTitleMain {
+    font-size: 40px;
+    font-family: "Roboto", sans-serif;
+    background-image: var(--about-me-title-and-line);
+    -webkit-background-clip: text;
+    color: transparent; 
+    transition: 0.4s all ease-in-out; 
+    transition: scale(1);
+}
+.aboutMeTitleMain:hover {
+    transform: scale(1.1);
+}
+.lineAndTitleWrapper {
+    display: flex;
+    margin-bottom: 30px;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.lineNoTitle {
+    height: 4px;
+    border-radius: 3px;
+    flex: 2;
+    background: var(--about-me-title-and-line);
+}
+.imageWrapper {
+    width: 40%;
+    object-fit: cover;
+    position: relative;
+}
+.imageMain {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 15px;
+    aspect-ratio: 7 / 8;
+}
+#swipeLeftWrapper, #swipeRightWrapper {
+    position: absolute;
+    top: 50%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+#swipeRightWrapper {
+    right: 5px;
+}
+#swipeLeftWrapper {
+    left: 5px;
+}
+#swipeRightMain, #swipeLeftMain {
+    color: var(--about-me-title-and-line);
+    transition: 2s all ease-in-out;
+    background-color: white;
+    opacity: 0.75;
+    border-radius: 50%;
+    font-size: 26px;
+    padding: 10px;
+}
+#imageMainForImages {
+    transition: left 1s all ease-in-out;
+}
+.informationWrapper {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    gap: 15px;
+}
+.titleWrapper {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+.symbolWrapper {
+    font-size: 40px;
+    background-image: var(--symbol-wrapper);
+    -webkit-background-clip: text;
+    color: transparent;  
+}
+.introWrapper {
+    width: 52px;
+}
+.introInfo {
+    font-size: 25px;
+    font-family: 'Roboto';
+    color: var(--intro-info);
+}
+.mainInfo {
+    color: var(--activities);
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 22px;
+}
+#ctp {
+    text-decoration: none;
+    background-image: linear-gradient(to right, rgb(148, 209, 214), rgb(23, 175, 195));
+    -webkit-background-clip: text;
+    color: transparent; 
+    font-family: 'Poppins', sans-serif; 
+    font-size: 22px;
+    font-weight: 600;
+}
+#heart {
+    background-image: linear-gradient(to right, rgb(230, 137, 157), rgb(211, 13, 46));
+    -webkit-background-clip: text;
+    color: transparent;  
+}
+#school {
+    background-image: linear-gradient(to right, rgba(231, 176, 105, 0.904), rgba(211, 148, 13, 0.753));
+    -webkit-background-clip: text;
+    color: transparent; 
+}
+#birthdayCake {
+    background-image: linear-gradient(to right, rgba(201, 155, 94, 0.904), brown);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+#name {
+    background-image: linear-gradient(to right, rgba(211, 198, 181, 0.918), rgba(109, 107, 101, 0.753));
+    -webkit-background-clip: text;
+    color: transparent;
+}
+#class {
+    text-decoration: none;
+    background-image: linear-gradient(to right, rgb(115, 174, 230), rgb(8, 41, 190));
+    -webkit-background-clip: text;
+}
+#classLink {
+    text-decoration: none;
+    background-image: linear-gradient(to right, rgb(160, 148, 214), rgb(71, 9, 216));
+    -webkit-background-clip: text;
+    color: transparent; 
+    font-family: 'Poppins', sans-serif; 
+    font-size: 22px;
+    font-weight: 600;
+}
+.viewMoreWrapper {
+    padding-bottom: 25px;
+}
+#arrowDownGithub {
+    font-size: 22px;
+    color: rgba(187, 19, 41, 0.753)
+}
+.infoGithubWrapper {
+    margin-bottom: 5px;
+}
+#githubLink {
+    text-decoration: none;
+    text-align: center;
+    transition: 2s all ease-in-out;
+}
+.myGithubProject {
+    font-size: 22px;
+    font-weight: 600;
+    background-image: linear-gradient(to right, rgba(187, 19, 41, 0.753),rgba(228, 119, 119, 0.918));
+    -webkit-background-clip: text;
+    color: transparent;
+    font-family: 'Poppins', sans-serif;
+}
+.myGithubProject:hover, #ctp:hover, #classLink:hover {
+    transform: scale(1.1);
+}
+.quoteWrapper {
+    text-align: center;
+}
+.quoteMainFirstHalf {
+    background-image: linear-gradient(to right, rgba(218, 215, 211, 0.918), rgba(74, 73, 70, 0.753));
+    -webkit-background-clip: text;
+    color: transparent;
+    font-style: italic;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+.quoteMainSecondHalf {
+    font-weight: 400;
+    background-image: linear-gradient(to right, rgba(187, 181, 173, 0.918), rgba(52, 51, 50, 0.753));
+    -webkit-background-clip: text;
+    color: transparent;
+    font-style: italic;
+    font-family: 'Poppins', sans-serif;
+
+}
+#cp {
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    background-image: linear-gradient(to right, rgba(183, 229, 165, 0.918), rgba(16, 221, 16, 0.753));
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.detailWrapper {
+    /* justify-content: space-between; */
+    /* position: relative; */
+}
+/* WRAPPER END */
